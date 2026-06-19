@@ -1,0 +1,30 @@
+protobuf
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.9
+pandas>=3.0.0
+openpyxl>=3.1.5
+beautifulsoup4 >=4.14.3
+
+# ── LLM ──────────────────────────────────────────────────────────────────────
+google-generativeai>=0.8.0
+
+# ── Embedding (KR-SBERT) ──────────────────────────────────────────────────────
+sentence-transformers>=3.0.0
+torch>=2.0.0
+
+# ── Vector DB (Weaviate) ──────────────────────────────────────────────────────
+weaviate-client>=4.6.0
+
+# ── Document Parsing ──────────────────────────────────────────────────────────
+pypdf>=4.0.0
+
+# ── Utils ─────────────────────────────────────────────────────────────────────
+numpy>=1.26.0
+
+# ── RDB ─────────────────────────────────────────────────────────────────────
+sqlalchemy>=2.0.30
+pymysql>=1.1.1
